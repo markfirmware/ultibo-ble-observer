@@ -662,7 +662,7 @@ type
 const
  ExpectedPrefix:Array[0 .. 5] of Byte = ($1f,$02,$01,$06,$1b,$ff);
  ExpectedManufacturer:Array[0 .. 1] of Byte = ($ff,$ff);
- ExpectedSignature:Array[0 .. 2] of Byte = ($39,$a8,$02);
+ ExpectedSignature:Array[0 .. 2] of Byte = ($39,$a8,$03);
 
  Flags_Button_A = $02;
  Flags_Button_B = $01;
